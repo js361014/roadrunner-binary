@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/js361014/roadrunner-plugins/v2/config"
 	endure "github.com/spiral/endure/pkg/container"
-	"github.com/spiral/roadrunner-plugins/v2/config"
 )
 
 type Config struct {

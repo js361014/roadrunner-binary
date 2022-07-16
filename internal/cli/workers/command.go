@@ -8,15 +8,15 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/roadrunner-server/api/v2/plugins/jobs"
-	internalRpc "github.com/spiral/roadrunner-binary/v2/internal/rpc"
+	"github.com/js361014/api/v2/plugins/jobs"
+	internalRpc "github.com/js361014/roadrunner-binary/v2/internal/rpc"
 
 	tm "github.com/buger/goterm"
 	"github.com/fatih/color"
+	"github.com/js361014/roadrunner-plugins/v2/config"
+	"github.com/js361014/roadrunner-plugins/v2/informer"
 	"github.com/spf13/cobra"
 	"github.com/spiral/errors"
-	"github.com/spiral/roadrunner-plugins/v2/config"
-	"github.com/spiral/roadrunner-plugins/v2/informer"
 )
 
 // NewCommand creates `workers` command.

@@ -1,4 +1,4 @@
-module github.com/spiral/roadrunner-binary/v2
+module github.com/js361014/roadrunner-binary/v2
 
 go 1.17
 
@@ -7,17 +7,17 @@ require (
 	github.com/dustin/go-humanize v1.0.0
 	github.com/fatih/color v1.13.0
 	github.com/joho/godotenv v1.4.0
+	github.com/js361014/api/v2 v2.0.0-rc.1.2
+	github.com/js361014/roadrunner-plugins/v2 v2.7.2-0.20220716000013-8e6eb30750b3
+	github.com/js361014/roadrunner-temporal v1.1.2-0.20220716012213-d399b60a52ec
+	github.com/js361014/roadrunner/v2 v2.7.2-0.20220715153807-f9b8f7350769
 	github.com/mattn/go-runewidth v0.0.13
 	github.com/olekukonko/tablewriter v0.0.5
-	github.com/roadrunner-server/api/v2 v2.0.0-rc.1
 	github.com/spf13/cobra v1.3.0
 	github.com/spiral/endure v1.1.0
 	github.com/spiral/errors v1.0.12
 	github.com/spiral/goridge/v3 v3.2.7
-	github.com/spiral/roadrunner-plugins/v2 v2.7.1
-	github.com/spiral/roadrunner/v2 v2.7.1
 	github.com/stretchr/testify v1.7.0
-	github.com/temporalio/roadrunner-temporal v1.1.1
 	github.com/vbauerster/mpb/v5 v5.4.0
 )
 
@@ -79,7 +79,7 @@ require (
 	github.com/mitchellh/mapstructure v1.4.3 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
-	github.com/nats-io/jwt/v2 v2.1.0 // indirect
+	github.com/nats-io/jwt/v2 v2.3.0 // indirect
 	github.com/nats-io/nats.go v1.13.0 // indirect
 	github.com/nats-io/nkeys v0.3.0 // indirect
 	github.com/nats-io/nuid v1.0.1 // indirect
